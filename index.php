@@ -80,8 +80,7 @@
 
 	<script type="text/javascript">
 		var $top = $('.top'),
-	        $btm = $('.bottom'),
-	        bowHeight = $top.parent().height();
+	        $btm = $('.bottom');
 
 	    $('button').click(function (e) {
 	        $top.removeAttr('style');
